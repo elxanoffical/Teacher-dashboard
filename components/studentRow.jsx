@@ -8,7 +8,7 @@ import {
   deleteScore,
   updateStudent,
   deleteStudent,
-} from "@/app/dashboard/actions";
+} from "@/app/admin/actions";
 import ScoreDropdown from "./scoreDropdown";
 
 export default function StudentRow({

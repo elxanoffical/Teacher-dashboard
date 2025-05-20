@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { addStudent, getStudents } from "@/app/dashboard/actions";
+import { addStudent, getStudents } from "@/app/admin/actions";
 import StudentsTable from "./studentsTable";
 
 export default function StudentSection() {

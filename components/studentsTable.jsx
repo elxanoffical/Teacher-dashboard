@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { getScoresByDate } from "@/app/dashboard/actions";
+import { getScoresByDate } from "@/app/admin/actions";
 import StudentRow from "./studentRow";
 
 export default function StudentsTable({ students = [], date, refreshStudents }) {

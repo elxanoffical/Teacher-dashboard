@@ -2,7 +2,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { getAllScores } from "@/app/dashboard/actions";
+import { getAllScores } from "@/app/admin/actions";
 
 export default function HomePage() {
   const [entries, setEntries] = useState([]);
